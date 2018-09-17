@@ -356,7 +356,32 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 70px;
+  font-weight: 400;
+}
+h1.hedding-1{
+  font-family: 'heddingText1';
+}
+
+h1.hedding-2{
+  font-family: 'heddingText2';
+}
+
+h2.content-text-main{
+  font-family: 'contentText1';
+  font-weight: lighter;
+}
+
+a.detail-button{
+  font-family: 'buttonClick';
+}
+p.detail-content{
+  font-family: 'buttonClick';
+  font-size: 15px;
+}
+
+h3.title-detail-content{
+  font-family: 'titleSaveTheDate';
 }
 
 h2 {
@@ -683,8 +708,8 @@ sup {
   color: #757A86;
 }
 #right-side .content h3 {
-  font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
-  text-transform: uppercase;
+  font-family: titleSaveTheDate;
+  font-size: 80px;
   font-weight: 700;
 }
 #right-side .content span.separator {
@@ -1534,12 +1559,27 @@ footer p {
 
 @font-face {
   font-family: heddingText1;
-  src: url('../windsong.ttf');
+  src: url('../SVN-Brunette.otf');
 }
 
 @font-face {
   font-family: heddingText2;
   src: url('../SVN-Georgia Script.otf');
+}
+
+@font-face {
+  font-family: contentText1;
+  src: url('../VL_TFPironv2.otf');
+}
+
+@font-face {
+  font-family: buttonClick;
+  src: url('../VL_TFPironv2.otf');
+}
+
+@font-face {
+  font-family: titleSaveTheDate;
+  src: url('../Antrokas.ttf');
 }
 
 @-webkit-keyframes animCloud {
@@ -1819,7 +1859,7 @@ footer p {
     height: 100vh;
   }
 
-  h1.text-intro1 {
+  h1.text-intro {
     font-size: 30px;
   }
 
@@ -1869,13 +1909,7 @@ footer p {
     padding: 50px 0 100px;
   }
 
-  #text-intro1 {
-    font-family: 'heddingText1';
-    font-size: 30px;
-  }
-
-  #text-intro2 {
-    font-family: 'heddingText2';
+  h1.text-intro {
     font-size: 30px;
   }
 
