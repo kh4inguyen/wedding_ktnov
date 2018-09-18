@@ -357,7 +357,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 h1 {
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 550px;
 }
 h1.hedding-1{
   font-family: 'heddingText1';
@@ -370,14 +370,22 @@ h1.hedding-2{
 h2.content-text-main{
   font-family: 'contentText1';
   font-weight: lighter;
+  font-size: 17px;
 }
 
 a.detail-button{
   font-family: 'buttonClick';
 }
+
 p.detail-content{
   font-family: 'buttonClick';
   font-size: 15px;
+}
+
+h4.thanks-footer{
+    font-family: 'heddingText2';
+    font-size: 130px;
+    text-align: center;
 }
 
 h3.title-detail-content{
