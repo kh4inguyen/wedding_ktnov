@@ -356,11 +356,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 h1 {
-  font-size: 70px;
+  font-size:  85px;
   font-weight: 550px;
 }
 h1.hedding-1{
   font-family: 'heddingText1';
+  font-size: 180px;
 }
 
 h1.hedding-2{
@@ -371,6 +372,7 @@ h2.content-text-main{
   font-family: 'contentText1';
   font-weight: lighter;
   font-size: 17px;
+  line-height: 30px;
 }
 
 a.detail-button{
@@ -1574,12 +1576,12 @@ footer p {
 
 @font-face {
   font-family: heddingText2;
-  src: url('../SVN-Georgia Script.otf');
+  src: url('../Yorkshire-Regular.otf');
 }
 
 @font-face {
   font-family: contentText1;
-  src: url('../VL_TFPironv2.otf');
+  src: url('../JBCursive.otf');
 }
 
 @font-face {
